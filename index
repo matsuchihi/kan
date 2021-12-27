@@ -72,7 +72,7 @@ header領域
  			<p class="service_title">各分野のスペシャリストが、お客様の抱える課題をワンストップで解決いたします。</p>
  			<div class="web_contents1">
  				<div class="contents_list">
- 					<img src="img/img_01.jpg">
+ 					<img src="https://github.com/matsuchihi/kan/blob/main/img_01.jpg?raw=true">
  					<h5>WEB制作・開発</h5>
  					<p>キャンペーンやプロモーションの戦略立案からWEB制作、システム開発や事務局運用</p>
  					<div class="service_link">
