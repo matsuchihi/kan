@@ -1,0 +1,1045 @@
+@charset "utf-8";
+/* 
+========================================
+リセットcss
+========================================
+*/
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "YuGothic M", "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,Arial,sans-serif;
+		text-decoration: none;
+
+}
+
+/* 
+========================================
+ページ全体の幅、余白設定
+========================================
+*/
+#wrapper{
+	width: 100%;
+	overflow:hidden;
+}
+.container{
+	max-width: 1060px;
+	margin:0 auto;
+}
+
+/* 
+========================================
+見出し設定
+========================================
+*/
+
+section h4{
+	margin-bottom: 40px;
+	font-size: 32px;
+	position: relative;
+}
+section h4:before{
+	content: '';
+	position: absolute;
+	border-bottom: 1px solid #000;
+	width: 30px;
+	top:26px;
+	left:-45px;
+}
+/* 
+========================================
+header領域
+========================================
+*/
+
+header{
+	display: flex;
+	height: 80px;
+	justify-content: space-between;
+}
+header .header_logo{
+	padding-left: 2%;
+	line-height: 87px;
+}
+
+header nav {
+	width: 50%;
+	text-align: right;
+		line-height: 80px;
+
+}
+header nav ul{
+	margin-right: -17%;
+}
+header nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 6.7%;
+	font-weight: bold;
+}
+
+.btn{
+	background-color: #024784;
+	width: 7%;
+	position: relative;
+}
+.btn img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -18px;
+	margin-top: -12px;
+	}
+	
+/* 
+========================================
+main領域
+========================================
+*/
+main{
+	position: relative;
+}
+main img{
+	width: 100%;
+	height: 600px;
+}
+
+main h2{
+	position: absolute;
+	top: 350px;
+	left: 12.5%;
+	z-index: 4;
+	color: white;
+	font-size: 40px;
+}
+main h2 span{
+	color: #edef28;
+}
+main h3{
+	position: absolute;
+	top:450px;
+	left: 12.5%;
+	z-index: 4;
+	color: white;
+	font-size: 18px;
+}
+main h3 br{
+	display: none;
+}
+.slick-dots{
+	left: -29%;
+}
+.slick-dots li {
+	width: 70px;
+}
+
+.slick-dots li button:before{
+	background-color: #edef28;
+	width: 60px;
+	height: 5px;
+	content: '';
+}
+
+.slick-dots li:nth-of-type(2) button:before{
+	background-color: #ccc;
+}
+.slick-dots li:nth-of-type(3) button:before{
+	background-color: #ccc;
+}
+/* 
+========================================
+SERVICES領域
+========================================
+*/
+#services {
+	margin-bottom: 160px;
+}
+#services h4{
+	margin-top: 140px;
+	margin-bottom: 30px;
+}
+#services h5{
+	font-size: 26px;
+	color: #024784;
+}
+#services p:first-child{
+	margin-bottom: 80px;
+}
+
+#services .service_title{
+	margin-bottom: 80px;
+}
+#services .service_link{
+	
+	text-align: center;
+	display: flex;
+}
+#services a{
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	background-color: #ccc;
+	display: block;
+	line-height: 24px;
+	width: 96px;
+	height: 24px;
+	color: black;
+}
+#services .service_link a:hover{
+	background-color: #edef28;
+	border:1px solid #edef28;
+}
+
+.web_contents1 ,.web_contents2,.web_contents2 .contents_info{
+	display: flex;
+
+}
+.web_contents1{
+	margin-bottom: 80px;
+	justify-content: space-between;
+}
+.web_contents1 img{
+	width: 100%;
+	height: 200px;
+}
+.web_contents2 img{
+	width: 210px;
+	height: 140px;
+}
+.web_contents1 .contents_list{
+	width: 32%;
+}
+.web_contents2 .contents_list{
+	width:50%;
+}
+.contents_list p , .content_image img{
+		margin-bottom: 15px;
+}
+.content_image img{
+	margin-right: 35px;
+}
+.web_contents2 .contents_list a{
+	margin-right: 15px;
+}
+
+
+
+
+/* 
+========================================
+NEWS領域
+========================================
+*/
+
+.background-blue{
+	margin-bottom: 240px;
+}
+.background-news{
+	background-color: #edfdfd;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url(_sozai/bg_news.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 830px -300px;
+	margin-bottom: 120px;
+}
+#news .all_info{
+	text-align: right;
+	color: #024784;
+	padding-left: 45px;
+	padding-bottom: 10px;
+	position: relative;
+	margin-top: 20px;
+
+} 
+#news .all_info a{
+		display: block;
+		color: #024784;
+}
+
+#news .all_info a:before{
+	content: '';
+	border-bottom: 1px solid #024784;
+	bottom:0;
+	right: 0;
+	width: 100px;
+	height: 1px;
+	position: absolute;
+}
+#news dd {
+	border-bottom: 1px solid #cdcdcd;
+	width: 730px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+#news dd a{
+	color: black;
+}
+#news dd a:hover{
+	color:#024784;
+}
+#news .new dd:before{
+	content: 'NEW';
+	border:1px solid #edef28;
+	background-color:#edef28;
+	top: 0;
+	left: 0;
+	padding: 1px 5px;
+	margin-right: 10px;
+}
+/* 
+========================================
+RECRUIT領域
+========================================
+*/
+#recruit{
+	margin-bottom: 160px;
+}
+#recruit nav ul li{
+	display: inline-block;
+	margin-right: 40px;
+	border-bottom: 1px solid black;
+	padding-left: 30px;
+	margin-bottom: 55px;
+}
+#recruit ul li:hover{
+	cursor: pointer;
+	color: #024784;
+	border-color: #024784;
+}
+ table th ,table td{
+	border-bottom:1px solid #cdcdcd;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table th{
+	background-color: #eeeeee;
+	width: 26%;
+	padding-left:35px;
+	border-right: none;	
+	font-weight: normal;
+	white-space: nowrap;
+}
+table td{
+	border-left: none;
+}
+table td{
+	width: 74%;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+table .status{
+	height: 50px;
+}
+table td h5{
+	margin-top: 17px;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+table tr:nth-child(even){
+	padding-bottom: 30px;
+}
+table tr td p{
+	padding-bottom: 30px;
+}
+
+.tab2{
+	background-color: #eeeeee;
+	padding-top: 35px;
+	padding:35px 35px 45px 35px;
+}
+.tab2 ul li{
+	margin-left: 30px;
+}
+.tab2_contents h5{
+	margin-bottom: 20px;
+}
+.tab2 .tab2_contents{
+	display: flex;
+	margin-top: 40px;
+	text-align: left;
+}
+
+.tab2_contents ul .decimal{
+	list-style-type: decimal;
+}
+.tab2_contents ul .lower-latin{
+	list-style-type: lower-latin;
+}
+.tab3 {
+	display: flex;
+}
+.tab3 div{
+	width: 130px;
+	height: 130px;
+	position: relative;
+		margin-right: 25px;
+		text-align: center;
+		border:1px solid #cdcdcd;
+		border-radius: 8px;
+		display: inline-block;
+}
+.tab3 img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -18px;
+	margin-top: -18px;
+	color: red;
+}
+.tab3 a{
+	line-height: 230px;
+	color: #024784;
+	font-size: 12px;
+	}
+
+.tab-target{ 
+	display: none;
+}
+#recruit .current{
+ display: inline-block;
+}
+
+
+
+
+
+
+/* 
+========================================
+FAQ領域
+========================================
+*/
+.background_faq{
+	background-color: #edfdfd;
+	padding-top: 80px;
+	padding-bottom: 125px;
+}
+#faq h4{
+	margin-bottom: 35px;
+}
+#faq h6{
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 24px;
+} 
+#faq ul li{
+	margin-bottom: 25px;
+	list-style-type: none;
+}
+#faq ul li .question:hover , #faq ul li span:hover{
+	color: #024784;
+}
+#faq ul .answer{
+	margin-bottom: 20px;
+	padding-right: 45px;
+	display: none;
+	margin-top: 20px;
+}
+.faq-list-item{
+	position: relative;
+	border-bottom: 1px solid #cdcdcd;
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+.faq-list-item span {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	font-size: 15px;
+}
+
+/* 
+========================================
+CONTACT領域
+========================================
+*/
+.background-contact{
+	background-color: #333333;
+	padding-top: 80px;
+	padding-bottom: 85px;
+	margin-bottom: 155px;
+}
+#contact .contact_btn{
+	width: 480px;
+	height: 80px;
+	background-color: #024784;
+}
+#contact h4:before{
+		content: '';
+	position: absolute;
+	border-bottom: 1px solid #666;
+	width: 30px;
+	top:26px;
+	left:-40px;		
+}
+#contact h4{
+	color: #666;
+	margin-bottom: 30px;
+}
+#contact a{
+	display: block;
+	line-height: 80px;
+	color: white;
+}
+#contact p{
+	color: white;
+	margin-bottom: 45px;
+}
+#contact p , #contact .contact_btn{
+	text-align: center;
+}
+
+#contact .contact_btn{
+	margin:0 auto;
+	position: relative;
+}
+#contact .contact_btn img{
+	position: absolute;
+	width: 25px;
+	height: 15px;
+	right: 30px;
+	top: 40px;
+	display: block;
+	margin-top: -7.5px;
+}
+
+
+
+
+/* 
+========================================
+footer領域
+========================================
+*/
+footer{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	margin-bottom: 100px;
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.page_top{
+	position: absolute;
+	right:-10.6%;
+	top:90px;
+	padding-bottom: 10px;
+	transform: rotate(90deg);
+}
+footer a{
+	color: #024784;
+	display: block;
+
+}
+footer a:before{
+	content: '';
+	border-bottom: 1px solid #024784;
+	width: 130px;
+	position: absolute;
+	bottom: 0;
+	right:0;
+}
+
+/* 
+========================================
+スマホ設定
+========================================
+*/
+@media print, screen and (max-width: 767px){
+@charset "utf-8";
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "YuGothic M", "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,Arial,sans-serif;
+		text-decoration: none;
+
+}
+
+
+ /* 
+========================================
+見出し設定
+========================================
+*/
+section h4{
+	margin-bottom: 40px;
+	font-size: 32px;
+	position: relative;
+	padding-left: 30px;
+}
+section h4:before{
+	content: '';
+	position: absolute;
+	border-bottom: 1px solid #000;
+	width: 30px;
+	top:26px;
+	left:-15px;
+}
+/* 
+========================================
+ページ全体の幅、余白設定
+========================================
+*/
+#wrapper{
+	width: 100%;
+	overflow:hidden;
+}
+.container{
+	width: 90%;
+	margin:0 auto;
+}
+/* 
+========================================
+header領域
+========================================
+*/
+header{
+	display: flex;
+	height: 80px;
+	justify-content: space-between;
+	line-height: 80px;
+}
+header .header_logo{
+	padding-left: 2%;
+}
+header nav , .btn{
+	display: none;
+}
+header nav {
+	width: 50%;
+	text-align: right;
+}
+header nav ul{
+	margin-right: -17%;
+}
+header nav ul li{
+	list-style-type: none;
+	display: block;
+	font-weight: bold;
+	position: relative;
+	text-align: left;
+	margin-left: 40px;
+}
+header nav ul li:before {
+	content: '';
+	position: absolute;
+	border-bottom: 1px solid #fff;
+	width: 30px;
+	top:45%;
+	left:-45px;
+}
+
+.btn{
+	background-color: #024784;
+	width: 7%;
+	position: relative;
+}
+.btn img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -18px;
+	margin-top: -12px;
+	}
+	
+/* 
+========================================
+main領域
+========================================
+*/
+main{
+	width: 100%;
+	position: relative;
+}
+main img{
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+
+main h2{
+	position: absolute;
+	top: 200px;
+	left: 30px;
+	z-index: 4;
+	color: white;
+	font-size: 1.5rem;
+	margin-right: 40px;
+}
+main h2 span{
+	color: #edef28;
+}
+main h3{
+	position: absolute;
+	top:275px;
+	left: 30px;
+	z-index: 4;
+	color: white;
+	font-size: 1.1rem;
+	margin-right: 40px;
+}
+main h3 br{
+	display: block;
+}
+.slick-dots {
+	text-align: left;
+	margin-left: 33%;
+}
+/* 
+========================================
+SERVICES領域
+========================================
+*/@media print, screen and (max-width: 550px){
+	#services .web_contents2 .contents_info{
+		flex-direction: column;
+		}
+	#services .web_contents2 img{
+		width: 100%;
+	}
+
+}
+#services {
+	margin-bottom: 160px;
+}
+#services h4{
+	margin-top: 140px;
+	margin-bottom: 30px;
+}
+#services .web_contents1 h5{
+	font-size: 42px;
+	color: #024784;
+	margin:30px 0;
+}
+#services p:first-child{
+	margin-bottom: 80px;
+}
+
+#services .service_title{
+	margin-bottom: 80px;
+}
+#services .web_contents1 a {
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	background-color: #ccc;
+	display: block;
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 26px;
+	color: #666666;
+	margin-top: 5px;
+	margin-bottom: 80px;
+}
+#services .service_link a:hover{
+	background-color: #edef28;
+	border:1px solid #edef28;
+}
+.web_contents1{
+	margin-bottom: 0;
+}
+.web_contents1 , .web_contents2{
+	display: flex;
+	flex-direction: column;
+}
+
+.web_contents1 img{
+	width: 100%;
+	height: 460px;
+	height: auto;
+}
+.web_contents2 img {
+	height: 160px;
+	width: 240px;
+}
+.web_contents1 .contents_list , .web_contents2 .contents_list{
+	width:100%;
+	margin-bottom: 80px;
+}
+.contents_list p{
+	font-size: 26px;
+}
+.contents_list p , .content_image img{
+		margin-bottom: 20px;
+}
+.web_contents2 .contents_list:first-child{
+	margin-bottom: 80px;
+}
+.web_contents2 .contents_list{
+	margin-bottom: 60px;
+}
+.web_contents2 .contents_list h5{
+	font-size: 28px;
+}
+#services .web_contents2 a{
+	margin-right: 15px;
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	background-color: #ccc;
+	display: block;
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 26px;
+	color: #666666;
+	margin-top: 5px;
+}
+#services .web_contents2 .content_image div{
+	display: flex;
+}
+.web_contents2 .contents_list p{
+	margin-right: 0;
+}
+
+
+
+
+/* 
+========================================
+NEWS領域
+========================================
+*/
+
+
+.background-news{
+	background-color: #edfdfd;
+	padding-top: 230px;
+	padding-bottom: 80px;
+	background-image: url(_sozai/bg_news.png);
+	background-size: 500px 500px;
+	background-position: 90% -220px;
+	background-repeat: no-repeat;
+	margin-bottom: 120px;
+}
+#news .all_info{
+	text-align: right;
+	color: #024784;
+	padding-left: 45px;
+	padding-bottom: 10px;
+	position: relative;
+	margin-top: 20px;
+
+} 
+#news .all_info a{
+		display: block;
+		color: #024784;
+}
+
+#news .all_info a:before{
+	content: '';
+	border-bottom: 1px solid #024784;
+	bottom:0;
+	right: 0;
+	width: 100px;
+	height: 1px;
+	position: absolute;
+}
+#news dd{
+	border-bottom: 1px solid #cdcdcd;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+/* 
+========================================
+RECRUIT領域
+========================================
+*/
+#recruit{
+	margin-bottom: 160px;
+}
+#recruit nav ul li{
+	display: inline-block;
+	margin-right: 40px;
+	border-bottom: 2px solid black;
+	padding-left: 30px;
+	margin-bottom: 55px;
+}
+#recruit nav ul li:last-child{
+	margin-right: 0;
+}
+
+table th{
+	background-color: #eeeeee;
+	width: 26%;
+	padding-left:2%;
+	border-right: none;	
+	font-weight: normal;
+	vertical-align: top;
+	padding-top: 12px;
+}
+table td{
+	border-left: none;
+}
+table td{
+	width: 74%;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+table .status{
+	height: 50px;
+}
+table td h5{
+	margin-top: 12px;
+	margin-bottom: 30px;
+	font-size: 1.1rem;
+}
+table tr:nth-child(even){
+	padding-bottom: 30px;
+}
+table tr td p{
+	padding-bottom: 30px;
+}
+.tab2_contents{
+	flex-direction: column;
+	margin-top: 0;
+}
+.tab2_contents div:first-child {
+		margin-bottom: 60px;
+}
+.tab2 h5:first-child{
+	margin-bottom: 20px;
+	list-style-position: 
+}
+
+/* 
+========================================
+FAQ領域
+========================================
+*/
+.background_faq{
+	background-color: #edfdfd;
+	padding-top: 80px;
+}
+#faq h4{
+	margin-bottom: 35px;
+}
+#faq h6{
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 24px;
+} 
+#faq ul li{
+	margin-bottom: 25px;
+	list-style-type: none;
+}
+#faq ul .list-text{
+	margin-bottom: 20px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #cdcdcd;
+	padding-right: 45px;
+
+}
+
+/* 
+========================================
+CONTACT領域
+========================================
+*/
+.background-contact{
+	background-color: #333333;
+	padding-top: 80px;
+	padding-bottom: 85px;
+	margin-bottom: 120px;
+}
+#contact .contact_btn{
+	width: 480px;
+	height: 80px;
+	background-color: #024784;
+}
+#contact h4:before{
+		content: '';
+	position: absolute;
+	border-bottom: 1px solid #666;
+	width: 30px;
+	top:26px;
+	left:-15px;		
+}
+#contact h4{
+	color: #666;
+	margin-bottom: 30px;
+}
+#contact a{
+	display: block;
+	line-height: 80px;
+	color: white;
+}
+#contact p{
+	color: white;
+	margin-bottom: 45px;
+}
+#contact p , #contact .contact_btn{
+	text-align: center;
+}
+
+#contact .contact_btn{
+	margin:0 auto;
+	position: relative;
+	width: 62.7%;
+}
+#contact .contact_btn img{
+	position: absolute;
+	width: 25px;
+	height: 15px;
+	right: 6.2%;
+	top: 40px;
+	display: block;
+	margin-top: -7.5px;
+}
+
+
+
+
+/* 
+========================================
+footer領域
+========================================
+*/
+footer{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+footer h1{
+	margin-bottom: 60px;
+}
+footer address p{
+	margin-bottom: 20px;
+}
+.page_top{
+	position: absolute;
+	display: none;
+	right:-10.6%;
+	top:90px;
+	padding-bottom: 10px;
+	transform: rotate(90deg);
+}
+.conpany_privacy img{
+	margin-top: 50px;
+	margin-bottom: 45px;
+}
+
+footer a{
+	color: #024784;
+	display: block;
+
+}
+footer a:before{
+	content: '';
+	border-bottom: 1px solid #024784;
+	width: 130px;
+	position: absolute;
+	bottom: 0;
+	right:0;
+}	
+}
