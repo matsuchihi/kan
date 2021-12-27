@@ -7,9 +7,10 @@
  	<!--slick読み込み-->
  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
- 	<link rel="stylesheet" href="css/hamburger-menu.css">
- 	<!--slick読み込みここまで-->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--ハンバーガーメニュー読み込み-->
+ 	<link rel="stylesheet" href="https://matsuchihi.github.io/kan/hamburger-menu.css">
+ 	<!--css読み込み-->
+	<link rel="stylesheet" type="text/css" href="https://matsuchihi.github.io/kan/style.css">
  </head>
  <body>
  	<div id="wrapper">
