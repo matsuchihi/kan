@@ -51,7 +51,7 @@ header領域
  -->  
  	<main>
  	<div class="slider">
- 		<div><img src="img/hero_01.jpg" class="mainvisual top"></div>
+ 		<div><img src="https://github.com/matsuchihi/kan/blob/main/hero_01.jpg?raw=true" class="mainvisual top"></div>
  		<div><img src="img/hero_02.jpg" class="mainvisual middle"></div>
  		<div><img src="img/hero_03.jpg" class="mainvisual bottom"></div>
  	</div>	
