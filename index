@@ -21,7 +21,7 @@ header領域
  -->	
  	<header>
  		<div class="header_logo">
- 			<img src="img/logo.png">
+ 			<img src="https://github.com/matsuchihi/kan/blob/main/logo.png?raw=true">
  		</div>
  		<button class="hamburger-button"></button>
  		<nav>
