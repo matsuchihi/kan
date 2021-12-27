@@ -261,7 +261,7 @@ header領域
  				ご依頼、ご相談、ご質問、 まずはお問い合わせください。</p>
  				<div class="contact_btn">
  					<a href="###">お問い合わせ</a>
- 					<img src="img/icn_btn.png">
+ 					<img src="https://github.com/matsuchihi/kan/blob/main/icn_btn.png?raw=true">
  				</div>
  			</section>
  		</div>
