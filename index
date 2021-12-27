@@ -1,0 +1,368 @@
+ <!DOCTYPE html>
+ <html>
+ <head lang="ja">
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>コーディングテスト</title>
+ 	<!--slick読み込み-->
+ 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+ 	<link rel="stylesheet" href="css/hamburger-menu.css">
+ 	<!--slick読み込みここまで-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+ </head>
+ <body>
+ 	<div id="wrapper">
+ <!--
+========================================
+header領域
+========================================
+ -->	
+ 	<header>
+ 		<div class="header_logo">
+ 			<img src="img/logo.png">
+ 		</div>
+ 		<button class="hamburger-button"></button>
+ 		<nav>
+ 			 <ul>
+ 				<li><a href="###">SERVICES</a></li>
+ 				<li><a href="###">NEWS</a></li>
+ 				<li><a href="###">RECRUIT</a></li>
+ 				<li><a href="###">FAQ</a></li>
+ 			</ul>
+ 		</nav>
+ 		<nav class="hamburger-nav">
+ 			 <ul>
+ 				<li><a href="###">SERVICES</a></li>
+ 				<li><a href="###">NEWS</a></li>
+ 				<li><a href="###">RECRUIT</a></li>
+ 				<li><a href="###">FAQ</a></li>
+ 			</ul>
+ 		</nav>
+ 		<div class="btn">
+ 			<a href="###"><img src="img/icn_btn.png"></a>
+ 		</div>
+ 	</header>
+  <!--
+========================================
+メイン領域
+========================================
+ -->  
+ 	<main>
+ 	<div class="slider">
+ 		<div><img src="img/hero_01.jpg" class="mainvisual top"></div>
+ 		<div><img src="img/hero_02.jpg" class="mainvisual middle"></div>
+ 		<div><img src="img/hero_03.jpg" class="mainvisual bottom"></div>
+ 	</div>	
+ 		<h2>KANNART<span>Coding Tests</span></h2>
+ 		<h3>お客様の思い描くネットビジネスをサポートし、<br>未来を「つくる」</h3>
+ 
+
+ 
+ 	</main>	
+	 <!--
+	========================================
+	SERVICES領域
+	========================================
+	 -->
+ 	<div class="container">
+ 		<section id="services">
+ 			<h4>SERVICES</h4>
+ 			<p class="service_title">各分野のスペシャリストが、お客様の抱える課題をワンストップで解決いたします。</p>
+ 			<div class="web_contents1">
+ 				<div class="contents_list">
+ 					<img src="img/img_01.jpg">
+ 					<h5>WEB制作・開発</h5>
+ 					<p>キャンペーンやプロモーションの戦略立案からWEB制作、システム開発や事務局運用</p>
+ 					<div class="service_link">
+ 					<a href="###">タグ１</a>
+ 					</div>
+ 				</div>
+ 				<div class="contents_list">
+ 					<img src="img/img_02.jpg">
+ 					<h5>事業開発サポート</h5>
+ 					<p>サービスの構築と運用を一括受託、または共同事業としてお客様の目標達成をサポート</p>
+ 					<div class="service_link">
+ 					<a href="###">タグ２</a>
+ 					</div>
+ 				</div>
+ 				<div class="contents_list">
+ 					<img src="img/img_03.jpg">
+ 					<h5>EC事業</h5>
+ 					<p>お客様に喜びや感動を提供する、高品質な商品を扱う自社ECサイトの構築・運営</p>
+ 					<div class="service_link">
+ 					<a href="###">タグ３</a>
+ 				</div>
+ 				</div>
+ 			</div>
+ 			<div class="web_contents2">
+ 				<div class="contents_list">
+ 				<div class="contents_info">
+ 					<div class="content_image">
+ 						<img src="img/img_04.jpg">
+ 					</div>
+ 					<div class="content_text">
+ 						<h5>WEB制作・開発</h5>
+ 						<p>キャンペーンやプロモーションの戦略立案からWEB制作、システム開発や事務局運用</p>
+ 					</div>
+ 				</div>
+ 					<div class="service_link">
+ 						<a href="###">タグ４</a>
+ 						<a href="###">タグ４</a>
+ 					</div>
+ 				</div>
+ 				<div class="contents_list">
+ 					<div class="contents_info">
+ 					<div class="content_image">
+ 						<img src="img/img_05.jpg">
+ 					</div>
+ 					<div class="content_text">
+ 						<h5>事業開発サポート</h5>
+ 						<p>サービスの構築と運用を一括受託、または共同事業としてお客様の目標達成をサポート</p>
+ 					</div>
+ 				</div>
+ 					<div class="service_link">
+ 						<a href="###">タグ５</a>
+ 						<a href="###">タグ５</a>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</section>
+ 	</div>
+	 <!--
+	========================================
+	NEWS領域
+	========================================
+	 -->
+ 	<div class="background-news">
+ 		<div class="container">
+ 			<section id="news">
+ 				<h4>NEWS</h4>
+ 				<dl class="new">
+ 					<dt>2019.04.24</dt>
+ 					<dd><a href="###">カンナートの活動状況をFacebookで発信しています。<img src="img/icn_01.png"></a></dd>
+ 				</dl>
+ 				<dl>
+ 					<dt>2019.04.24</dt>
+ 					<dd><a href="###">カンナートの活動状況をFacebookで発信しています。カンナートの活動状況をFacebookで</a></dd>
+ 				</dl>
+ 				<dl>
+ 					<dt>2019.04.24</dt>
+ 					<dd><a href="###">カンナートの活動状況をFacebookで発信しています。<img src="img/icn_02.png"></a></dd>
+ 				</dl>
+ 				<dl>
+ 					<dt>2019.04.24</dt>
+ 					<dd><a href="###">カンナートの活動状況をFacebookで発信しています。カンナートの活動状況をFacebookで</a></dd>
+ 				</dl>
+ 				<div class="all_info">
+ 					<a href="###">View all</a>
+ 				</div>
+ 			</section>
+ 		</div>
+ 	</div>
+ 	<div class="container">
+ 		<section id="recruit">
+ 			<h4>RECRUIT</h4>
+ 			<nav>
+ 				<ul class="tab">
+ 					<li>Tab1</li>
+ 					<li>Tab2</li>
+ 					<li>Tab3</li>
+ 				</ul>
+ 			</nav>
+ 			<table class="tab1 tab-target current">
+ 				<tr class="status"><th align="left">雇用形態</th><td>正社員</td></tr>
+ 				<tr><th align="left">仕事内容</th><td><h5>＜担当する仕事内容＞</h5><p>Webサイト、スマートフォンサイトの企画提案、制作管理、運用設計、プロモーション提案など、Web制作（PC・スマートフォン）過程全般におけるディレクション業務をお任せいたします。入社時に、貴方と今後のキャリアプランを相談の上、得意な分野や担当してみたい業界等を担当していただきます。</p></td>
+ 				</tr>
+ 				<tr class="status"><th align="left">雇用形態</th><td>正社員</td></tr>
+ 				<tr><th align="left">仕事内容</th><td><h5>＜担当する仕事内容＞</h5><p>Webサイト、スマートフォンサイトの企画提案、制作管理、運用設計、プロモーション提案など、Web制作（PC・スマートフォン）過程全般におけるディレクション業務をお任せいたします。入社時に、貴方と今後のキャリアプランを相談の上、得意な分野や担当してみたい業界等を担当していただきます。</p></td></tr>
+ 			</table>
+ 			<div class="tab2 tab-target">
+ 				<h5>＜見出し＞</h5>
+ 				<ul>
+ 					<li>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</li>
+ 					<li>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</li>
+ 					<li>ダミーテキストダミーテキストダミーテキスト</li>
+ 				</ul>
+ 				<div class="tab2_contents">
+ 					<div>
+ 						<h5>＜見出し＞</h5>
+ 						<ul>
+ 							<li class="decimal">ダミーテキストダミーテキストダミーテキストダミーテキスト</li>
+ 							<li class="decimal">ダミーテキストダミーテキストダミーテキスト</li class="decimal">
+ 							<li class="decimal">ダミーテキストダミーテキスト</li>
+ 						</ul>
+ 					</div>
+ 					<div>	
+ 						<h5>＜見出し＞</h5>
+ 						<ul>
+ 							<li class="lower-latin">ダミーテキストダミーテキストダミーテキストダミーテキスト</li>
+ 							<li class="lower-latin">ダミーテキストダミーテキストダミーテキスト</li>
+ 							<li class="lower-latin">ダミーテキストダミーテキスト</li>
+ 						</ul>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="tab3 tab-target">
+ 				<div>
+ 				<img src="img/icn_recruit_01.png" width="30" height="30">
+ 				<a href="###">ダミーリンク01</a>
+ 				</div>
+ 				<div>
+ 				<img src="img/icn_recruit_02.png" width="30" height="30">
+ 				<a href="###">ダミーリンク02</a>
+ 				</div>
+ 				<div>
+ 				<img src="img/icn_recruit_03.png" width="30" height="30">
+ 				<a href="###">ダミーリンク03</a>
+ 				</div>
+ 				<div>
+ 				<img src="img/icn_recruit_04.png" width="30" height="30">
+ 				<a href="###">ダミーリンク04</a>
+ 				</div>
+ 			</div>
+ 		</section>
+ 	</div>
+	 <!--
+	========================================
+	FAQ領域
+	========================================
+	 -->
+ <div class="background_faq">
+ 	<div class="container">
+ 		<section id="faq">
+ 			<h4>FAQ</h4>
+ 			<h6>〇〇に関するよくあるご質問</h6>
+ 			<ul id="faq-list">
+ 				<li class="faq-list-item"><div class="question">Q. 〇〇に関して〇〇ですが、〇〇について教えてください。</div>
+ 				<span>+</span>
+ 				<div class="answer">ダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入ります</div></li>
+ 				<li class="faq-list-item"><div class="question">Q. 〇〇に関して〇〇ですが、〇〇について教えてください。</div>
+ 					<span>+</span>
+ 				<div class="answer">ダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入ります</div></li>
+ 				<li class="faq-list-item"><div class="question">Q. 〇〇に関して〇〇ですが、〇〇について教えてください。</div>
+ 					<span>+</span>
+ 				<div class="answer">ダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入りますダミー：テキストが入ります</div></li>
+ 			</ul>
+ 		</section>
+ 	</div>
+ </div>
+	 <!--
+	========================================
+	CONTACT領域
+	========================================
+	 -->
+ 	<div class="background-contact">
+ 		<div class="container">
+ 			<section id="contact">
+ 				<h4>CONTACT</h4>
+ 				<p>お客様の課題に合わせた 最適なプロジェクトを提案します。<br>
+ 				ご依頼、ご相談、ご質問、 まずはお問い合わせください。</p>
+ 				<div class="contact_btn">
+ 					<a href="###">お問い合わせ</a>
+ 					<img src="img/icn_btn.png">
+ 				</div>
+ 			</section>
+ 		</div>
+ 	</div>
+ <!--
+========================================
+footer領域
+========================================
+ -->
+ 		<footer>
+ 			<div class="conpany_info">
+ 				<h1>
+ 					<img src="img/logo.png">
+ 				</h1>
+ 				<address>
+ 					<p>株式会社カンナート＜KANNART＞</p>
+ 					<p>〒150-0001</p>
+ 					<p>東京都渋谷区神宮前1-3-12ジブラルタ生命原宿ビル7階</p>
+ 					<p>TEL:03-6432-9033</p>
+ 				</address>
+ 			</div>
+ 			<div class="conpany_privacy">	
+ 				<img src="img/icn_privacy.png">
+ 				<p><small>& copy;KANNART inc.</small></p>
+ 				<div class="page_top">
+ 					<a href="index.html">Back to top</a>
+ 				</div>
+ 			</div>
+ 		</footer>
+ </div>
+  <!--
+========================================
+jQuery読み込み
+========================================
+ -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+ <!--
+========================================
+slick部分
+========================================
+ -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script type="text/javascript">
+ $('.slider').slick({
+    autoplay: true,         //自動再生
+    autoplaySpeed: 800,　  //自動再生のスピード
+    speed: 2300,     　 //スライドするスピード
+    dots: true,　　　　　　//スライドしたのドット
+    arrows: true,          //左右の矢印
+    infinite: true,　　　　//スライドのループ
+    pauseOnHover: false,  //ホバーしたときにスライドを一時停止しない
+    　
+});
+  </script>
+   <!--
+========================================
+アコーディオン部分
+========================================
+ -->
+  <script type="text/javascript">
+  	$('.faq-list-item').click(function(){
+  		var $answer=$(this).find('.answer');
+  		if($answer.hasClass('open')){
+  			$answer.removeClass('open');
+  			$answer.slideUp();
+  		$(this).find('span').text('+');
+  		}else{
+  			$answer.addClass('open');
+  			$answer.slideDown();
+  			$(this).find('span').text('ー');
+  		}
+  	});
+  </script>
+  <!--
+========================================
+ハンバーガーメニュー部分
+========================================
+ -->
+ <script src="js/hamburger-menu.js"></script>
+  <!--
+========================================
+タブ切り替え部分
+========================================
+ -->
+ <script type="text/javascript">
+ 	$(function(){
+    $('.tab-target').eq(0).addClass('current');
+    
+    $('.tab li').click(function(){
+        var index = $('.tab li').index(this);
+        
+        if($(this).hasClass('current')){
+        }else{
+            $('.tab li').removeClass('current');
+            $(this).addClass('current');
+            
+            $('.tab-target').removeClass('current');
+            $('.tab-target').eq(index).addClass('current');
+        }
+    });
+});
+ </script>
+</body>
+ </html>
