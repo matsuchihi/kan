@@ -100,7 +100,7 @@ header領域
  				<div class="contents_list">
  				<div class="contents_info">
  					<div class="content_image">
- 						<img src="img/img_04.jpg">
+ 						<img src="https://github.com/matsuchihi/kan/blob/main/img_04.jpg?raw=true">
  					</div>
  					<div class="content_text">
  						<h5>WEB制作・開発</h5>
