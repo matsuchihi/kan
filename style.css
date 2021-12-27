@@ -754,7 +754,7 @@ SERVICES領域
 	height: auto;
 }
 .web_contents2 img {
-	height: 160px;
+	height: auto;
 	width: 240px;
 }
 .web_contents1 .contents_list , .web_contents2 .contents_list{
